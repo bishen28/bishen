@@ -47,7 +47,7 @@ h3 {
   height: 650px;
   width: 100%;
   position: relative;
-  background-color: black;
+  background-color: #907fa4;
 }
 
 .profile {
@@ -178,7 +178,7 @@ hr {
   background-color: #ffe5e2;
 }
 
-.top-container-back {
+/* .top-container-back {
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   height: 100vh;
   overflow: hidden;
@@ -187,24 +187,5 @@ hr {
   justify-content: center;
   align-items: center;
 }
+ */
 
-$shooting-time: 3000ms;
-
-.night {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  transform: rotateZ(45deg);
-  // animation: sky 200000ms linear infinite;
-}
-
-.shooting_star {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  // width: 100px;
-  height: 2px;
-  background: linear-gradient(-45deg, rgba(95, 145, 255, 1), rgba(0, 0, 255, 0));
-  border-radius: 999px;
-  filter: drop-shadow(0 0 6px rgba(105, 155, 255, 1));
-}
